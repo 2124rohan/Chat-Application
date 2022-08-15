@@ -91,7 +91,7 @@ $mesasgeForm.addEventListener('submit', (e) => {
 
 $locationButton.addEventListener('click', () => {
     if (!navigator.geolocation) {
-        return alert('Geolocatio Not Supported by Your Browsr :(')
+        return alert('Geolocation Not Supported by Your Browsr :(')
     }
 
     //disable the location button
